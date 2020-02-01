@@ -1,0 +1,21 @@
+h1 {
+    color: midnightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.card {
+    color: whitesmoke;
+    background-color: lightsteelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: unset;
+}
+
+.card:hover {
+    background-color: rgb(106, 108, 122);
+}
+
