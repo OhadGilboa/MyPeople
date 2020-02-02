@@ -1,9 +1,8 @@
 
-const peopleData = function (data) {
-  console.log(data);
+const peopleData = function (contacts) {
   const source = $('#people-template').html();
   const template = Handlebars.compile(source);
-  const newHTML = template({contacts: data});
+  const newHTML = template({contacts});
   $(`#contacts`).append(newHTML)
 }
 

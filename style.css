@@ -3,7 +3,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.cards {
+#contacts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
