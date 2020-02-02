@@ -3,7 +3,7 @@ const peopleData = function (data) {
   console.log(data);
   const source = $('#people-template').html();
   const template = Handlebars.compile(source);
-  const newHTML = template({contact: data});
+  const newHTML = template({contacts: data});
   $(`#contacts`).append(newHTML)
 }
 
